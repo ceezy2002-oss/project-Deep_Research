@@ -1,0 +1,18 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
